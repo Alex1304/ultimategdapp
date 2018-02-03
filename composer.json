@@ -5,21 +5,25 @@
         "php": "^7.0.8",
         "ext-iconv": "*",
         "sensio/framework-extra-bundle": "^5.1",
+        "sensiolabs/security-checker": "^4.1",
+        "symfony/apache-pack": "^1.0",
         "symfony/asset": "^3.4",
         "symfony/console": "^3.4",
         "symfony/debug-pack": "*",
         "symfony/expression-language": "^3.4",
         "symfony/flex": "^1.0",
-        "symfony/framework-bundle": "^3.4",
         "symfony/form": "^3.4",
+        "symfony/framework-bundle": "^3.4",
         "symfony/lts": "^3",
-        "symfony/orm-pack": "*",
+        "symfony/maker-bundle": "^1.0",
         "symfony/monolog-bundle": "^3.1",
+        "symfony/orm-pack": "^1.0",
         "symfony/process": "^3.4",
         "symfony/security-bundle": "^3.4",
         "symfony/serializer-pack": "*",
-        "symfony/validator": "^3.4",
         "symfony/swiftmailer-bundle": "^3.1",
+        "symfony/twig-bundle": "^3.4",
+        "symfony/validator": "^3.4",
         "symfony/web-link": "^3.4",
         "symfony/webpack-encore-pack": "*",
         "symfony/yaml": "^3.4"
@@ -28,9 +32,8 @@
         "symfony/browser-kit": "^3.4",
         "symfony/css-selector": "^3.4",
         "symfony/dotenv": "^3.4",
-        "symfony/maker-bundle": "^1.0",
         "symfony/phpunit-bridge": "^3.4",
-        "symfony/profiler-pack": "*"
+        "symfony/profiler-pack": "^1.0"
     },
     "config": {
         "preferred-install": {
@@ -56,7 +59,8 @@
     "scripts": {
         "auto-scripts": {
             "cache:clear": "symfony-cmd",
-            "assets:install --symlink --relative %PUBLIC_DIR%": "symfony-cmd"
+            "assets:install --symlink --relative %PUBLIC_DIR%": "symfony-cmd",
+            "security-checker security:check": "script"
         },
         "post-install-cmd": [
             "@auto-scripts"
@@ -70,9 +74,9 @@
     },
     "extra": {
         "symfony": {
-            "id": "",
+            "id": "01C5E41EMJJ55RM3Y8S65VRK45",
             "allow-contrib": false
         },
-        "symfony.id": "01C5E3CXJX9PMJDJKPXF9YJ98Z"
+        "symfony.id": "01C5E3P8HAKNXY8RDZQWA1SX9M"
     }
 }
