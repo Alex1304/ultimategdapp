@@ -1,0 +1,41 @@
+body {
+	background-color: #555555;
+}
+
+.navbar-brand {
+	font-size: 1.1em;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+@media (max-width: 767.98px) {
+	.navbar-brand {
+		padding-left: 0px;
+	}
+}
+
+.bg-dark {
+	background-color: #111111 !important;
+}
+
+section {
+	border-top: 1px solid #111111;
+}
+
+#section-home-desc {
+	background-color: #222222;
+	min-height: 200px;
+}
+
+footer {
+	background-color: black;
+	padding: 30px;
+	font-size: 0.8em;
+	color: #888888;
+	padding-bottom: 1px;
+}
+
+.carousel-img {
+	min-height: 350px;
+	min-width: 1200px;
+}
