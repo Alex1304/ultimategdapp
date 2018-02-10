@@ -10,7 +10,7 @@
 	
 	<body class="container-fluid">
 		<header>
-			<nav class="navbar sticky-top navbar-dark navbar-expand-md bg-dark">
+			<nav class="navbar fixed-top navbar-dark navbar-expand-md bg-dark">
 				<a class="navbar-brand" href="{{ path('home') }}">UltimateGDApp</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@
 					<div class="carousel-item active">
 						<img class="d-block w-100 carousel-img align-self-center" src="{{ asset('images/carousel-img.png') }}" alt="First slide">
 						<div class="carousel-caption">
-							<h2>A set of tools for Geometry Dash players</h2>
+							<h2>UltimateGDBot, the Discord bot for Geometry Dash players</h2>
 							<p>Quickly get access to some in-game information from anywhere at anytime!</p>
 							<a class="btn btn-success" href="#">GET DISCORD BOT</a>
 						</div>
@@ -39,7 +39,24 @@
 			</div>
 		</section>
 		<section id="section-home-desc">
-
+			<div class="row no-gutters app-feature">
+				<div class="col-md-7 app-feature-body">
+					<h2 class="text-justify">Get notified when new levels are being rated!</h2>
+					<p class="text-justify">All you need to do is to set up a channel and a role to mention, and the bot will send you a notification when new levels are being rated in Geometry Dash. This lets you play the newest levels early so you have more chances to get a high spot on the level leaderboards!</p>
+				</div>
+				<div class="col-md-5 text-center">
+					<img class="app-feature-img" src="{{ asset('images/app-feature-1.png') }}" alt="app-feature-1" />
+				</div>
+			</div>
+			<div class="row no-gutters app-feature">
+				<div class="col-md-7 app-feature-body">
+					<h2 class="text-justify">Search for a level or a user instantly!</h2>
+					<p class="text-justify">The Discord bot provides simple commands so that you can get info on any level by providing its name or ID. You can also display stats for any user in the game, including their global rank and social links.</p>
+				</div>
+				<div class="col-md-5 text-center">
+					<img class="app-feature-img" src="{{ asset('images/app-feature-2.png') }}" alt="app-feature-2" />
+				</div>
+			</div>
 		</section>
 
 		<footer>

@@ -1,11 +1,21 @@
 body {
 	background-color: #555555;
+	color: #AAAAAA;
+}
+
+.container-fluid {
+	padding: 0px;
 }
 
 .navbar-brand {
 	font-size: 1.1em;
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+.nav-item {
+	min-width: 80px;
+	text-align: center;
 }
 
 @media (max-width: 767.98px) {
@@ -25,17 +35,48 @@ section {
 #section-home-desc {
 	background-color: #222222;
 	min-height: 200px;
+	padding-top: 50px;
 }
 
 footer {
 	background-color: black;
 	padding: 30px;
+	padding-left: 7%;
+	padding-right: 7%;
 	font-size: 0.8em;
 	color: #888888;
 	padding-bottom: 1px;
+	text-align: justify;
 }
 
 .carousel-img {
-	min-height: 350px;
+	min-height: 380px;
 	min-width: 1200px;
+}
+
+.app-feature {
+	padding: 7%;
+	padding-top: 0;
+	padding-bottom: 50px;
+}
+
+.app-feature-body {
+	padding-right: 7% !important;
+}
+
+@media (max-width: 767.98px) {
+	.app-feature-body {
+		padding-bottom: 20px;
+	}
+}
+
+.app-feature-body h2 {
+	margin-bottom: 35px;
+}
+
+.app-feature-img {
+	width: 90%;
+	max-width: 450px;
+	max-height: 250px;
+	margin-top: 9px;
 }
